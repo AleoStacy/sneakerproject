@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:whitesmoke;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+}
+
+header {
+  background-color: #333;
+  color: white;
+}
+
+#sneaker-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1em;
+}
+
+.sneaker {
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 10px;
+  width: 220px;
+  background-color: white;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.sneaker:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.sneaker img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+  border: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.cart {
+  margin-right: 20px;
+}
+#container{
+  background-color: cadetblue;
+}
+#cart {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.modal-body img {
+  max-width: 100%; 
+  height: auto; 
+}
+
+.modal-title {
+  font-size: 1.5rem; 
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.card {
+  width: 350px; 
+  height: auto; 
+  max-height: 300px; 
+  overflow-y: auto; 
+  background: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 2px 3px rgba(0, 0, 0, 0.1);
+  margin: 1em auto; 
+}
+
+.star-rating {
+  display: flex;
+  cursor: pointer;
+}
+
+.star {
+  font-size: 24px; 
+  color: gray; 
+}
+
+.star:hover,
+.star:hover ~ .star {
+  color: gold;
+}
+
+.star.selected {
+  color: gold;
+}
