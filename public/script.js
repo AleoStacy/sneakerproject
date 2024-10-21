@@ -19,12 +19,12 @@ fetch('http://localhost:3000/sneakers')
   .catch(error => console.error('Error fetching sneakers:', error));
 
 const sneakers = [
-  { id: 4, name: 'Nike SB Dunks Low Cut', price: 2700.00, img: "/images/Nike Women's Dunk Low.jpeg" },
-  { id: 5, name: 'Old Skool Vans Black', price: 2500.00, img: "/images/Old skool vans black.jpeg" },
-  { id: 6, name: 'Adidas Originals Samba OG', price: 4000.00, img: "/images/adidas Originals Samba OG.jpeg" },
-  { id: 7, name: 'Air Jordan 4 Retro', price: 3550.00, img: "/images/Air Jordan 4 Retro.jpeg" },
-  { id: 8, name: 'Air Jordan 11 Retro', price: 3500.00, img: "/images/Air Jordan 11 Retro.jpeg" },
-  { id: 10, name: 'Gift Nike This Season', price: 4000.00, img: "/images/Gift Nike this season_.jpeg" },
+  { id: 4, name: 'Nike SB Dunks', price: 2700.00, img: "/images/Nike Women's Dunk Low.jpeg" },
+  { id: 5, name: 'Old Skool Vans', price: 2500.00, img: "/images/Old skool vans black.jpeg" },
+  { id: 6, name: 'Adidas Samba', price: 4000.00, img: "/images/adidas Originals Samba OG.jpeg" },
+  { id: 7, name: 'Air Jordan 4', price: 3550.00, img: "/images/Air Jordan 4 Retro.jpeg" },
+  { id: 8, name: 'Air Jordan 11', price: 3500.00, img: "/images/Air Jordan 11 Retro.jpeg" },
+  { id: 10, name: 'Gift Nike ', price: 4000.00, img: "/images/Gift Nike this season_.jpeg" },
   { id: 11, name: 'New Balance', price: 3000.00, img: "/images/NEW BALANCE.jpeg" },
   { id: 12, name: 'Air Force 1', price: 2500.00, img: "/images/Air Force 1.jpeg"},
 ];
@@ -205,3 +205,4 @@ document.getElementById('confirm-purchase-btn').addEventListener('click', functi
   var checkoutModal = bootstrap.Modal.getInstance(document.getElementById('checkoutModal'));
   checkoutModal.hide();
 });
+
